@@ -28,6 +28,10 @@ namespace LibraryApplication.Controllers
             return View(book);
         }
 
+        public IActionResult NewAction()
+        {
+            return View();
+        }
         public IActionResult Create()
         {
             return View();
